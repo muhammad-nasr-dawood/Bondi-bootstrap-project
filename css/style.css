@@ -185,3 +185,37 @@ body{
     background-color: var(--dark-color);
 }
 /* end projects section  */
+
+
+/* start subscribe section */
+.subscribe{
+    background-color: var(--yellow-color);
+
+}
+
+.subscribe input[type="text"]{
+    border: none;
+    border-bottom: 1px solid white;
+}
+
+/* here you wanna acess the input element that has type attribute of "text" value */
+.subscribe input[type="text"]:focus{
+    outline: none;
+}
+
+/* here you wanna modify an attribute inside an html element */
+.subscribe ::placeholder{
+    color: white;
+}
+
+.subscribe input[type="submit"]{
+    background-color: var(--dark-color);
+    color: var(--yellow-color);
+    transition: 0.3s;
+}
+
+.subscribe input[type="submit"]:hover{
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.358);
+    color: white;
+}
+/* end subscribe section */
