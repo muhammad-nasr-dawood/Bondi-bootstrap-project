@@ -6,11 +6,13 @@
     --section-color: #eff7fa;
 }
 
-
+html{
+    scroll-behavior: smooth;
+}
 
 body{
     font-family: "Roboto", sans-serif;
-    height: 10000px;
+    
 }
 
 /* start components */
@@ -203,7 +205,8 @@ body{
     outline: none;
 }
 
-/* here you wanna modify an attribute inside an html element */
+/* here you wanna modify the style of an attribute inside an html element which is the placeholder in the input element
+*/
 .subscribe ::placeholder{
     color: white;
 }
@@ -219,3 +222,47 @@ body{
     color: white;
 }
 /* end subscribe section */
+
+/* start footer */
+.footer {
+    background-color: var(--dark-color);
+}
+
+.footer .copyrights > span{
+    color: var(--green-color);
+}
+
+.footer .copyrights div span{
+    color: var(--yellow-color);
+}
+
+.footer .contact ul svg{
+    width: 20px;
+    height: 20px;
+}
+
+.facebook{
+    background-color: #1877f2;
+    transition: 0.3s;
+}
+
+.twitter{
+    background-color: #14171a;
+    transition: 0.3s;
+}
+.linkedin{
+    background-color: #0a66c2;
+    transition: 0.3s;
+
+}
+.youtube{
+    background-color: #ff0000;
+    transition: 0.3s;
+}
+
+.facebook:hover, .twitter:hover, .linkedin:hover, .youtube:hover{
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.358);
+    /* color: var(--yellow-color); */
+
+}
+/* end footer */
