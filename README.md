@@ -1,2 +1,2 @@
 ## Watch the preview through the link below
-[click here](https://cobrastrike72.github.io/Bondi-bootstrap-project/)
+[click here](https://muhammad-nasr-dawood.github.io/Bondi-bootstrap-project/)
